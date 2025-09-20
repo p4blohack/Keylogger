@@ -92,8 +92,8 @@ except ImportError:
         print("❌ cryptography no disponible")
 
 # ==================== CONFIGURATION ====================
-TOKEN = '7843134567:AAERIl4NSsQNv65avHfWwXqjk1fuC0Me2is'  # Obtener de @BotFather
-CHAT_ID = '5719356323'       # Obtener con @userinfobot
+TOKEN = ''  # Obtener de @BotFather
+CHAT_ID = ''       # Obtener con @userinfobot
 
 # Intervals (seconds)
 INTERVALO_REPORTE = 10
